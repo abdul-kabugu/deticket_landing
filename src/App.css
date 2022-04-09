@@ -1,38 +1,650 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-container{
+  background-color: #edf6fc;
+   
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  
+}
+.nav-drawer{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.nav-list-drawer{
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.nav-right{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.toggle-btn{
+  display: none;
+}
+.nav-list{
+  display: flex;
+    width: 400px;
+  justify-content: space-between;
+  text-transform: capitalize;
+  
+  margin-right: 30px;
+  
+  
+}
+
+.nav-item{
+   list-style-type: none;
+   color: #3d3d3d;
+   text-decoration: none;
+   
+   
+}
+.roadmap-btn{
+  padding: 10px 20px;
+  border-radius: 14px;
+  border: unset;
   color: white;
+  font-size: 1rem;
+  background-color: black;
+  cursor: pointer;
+}
+.home-view-container{
+  width: 90%;
+  height: 80vh;
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.home-title{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #1d1e21;
+  margin-top: 2px;
+  margin-bottom: 3px;
+  margin: 0;
+}
+.home-subtitle{
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: 0;
+}
+.buy-tcke-img{
+  cursor: pointer;
+}
+.join-beta-container{
+  border: 1px solid #bfbfbf;
+  border-radius: 14px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: white;
+  
+
+ 
+}
+.email-input{
+  width: 76%;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: unset;
+}
+.email-input:focus{
+  outline: none;
+}
+.join-btn{
+  padding: 10px 20px;
+  border-radius: 10px;
+ border: unset;
+ background-color: black;
+ color: white;
+ cursor: pointer;
+}
+.services-title{
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  margin-bottom: 7px;
+}
+.services-body{
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.servic-feature{
+  width: 250px;
+  border: 1px solid  #bfbfbf;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feature-title{
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: 5px 0;
+  text-align: center;
+}
+.why-subgraph-line{
+  margin: 10px;
+  
+  display: inline-block;
+}
+.why-us-container{
+  width: 100%;
+  margin-top: 30px;
+ 
+}
+.features{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dashboard-image{
+  width: 500px;
+  
 }
+.feature-left{
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(246,241,253);
+  padding: 10px;
+}
+.feature-1{
+  margin-top: 30px;
+}
+.roadmap-container{
+  width: 90%;
+  
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.dates{
+  color:  #1d1e21;;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.progress-bar{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.progress-header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.task-item{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.left-4{
+  
+  width: 600px;
+}
+
+.footer-container{
+ 
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer-navs{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-title{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #1d1e21;
+}
+.footer-left{
+  flex: 2;
+}
+.footer-center{
+  flex: 1;
+}
+.footer-social{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  align-items: center;
+}
+.social-icons{
+  width: 200px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+.social-drawer{
+  margin-top: 100px;
+  width: 100%;
+}
+
+
+
+@media (max-width: 576px){
+  .home-container{
+    
+  }
+
+  .nav-right{
+    display: none;
+  }
+  .toggle-btn{
+    display: block;
+  }
+  .home-view-right{
+    display: none;
+  }
+  .home-view-container{
+    width: 100%;
+    padding: 15px;
+  }
+  .home-view-left{
+    width: 100%;
+  }
+  .home-title{
+    font-size: 2rem;
+  }
+  .home-paragraph{
+         
+    
+    font-size: 1rem;
+    text-transform: capitalize;
+
+   
+  }
+  .join-beta-container{
+    border: 1px solid #bfbfbf;
+    border-radius: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    }
+  .services-container{
+    margin: 0;
+  }
+  .services-heeader{
+    margin-top: 0px;
+  }
+  .services-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+    margin-top: 15px;
+  }
+  .servic-feature{
+    width: 80%;
+    border: 1px solid  #bfbfbf;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     margin: 0 auto;
+     margin-bottom: 10px;
+  }
+
+  .why-us-header{
+    padding: 10px;
+   
+  }
+  .why-us-title{
+    font-size: 1.9rem;
+  }
+  .why-us-subtitle{
+    font-size: 1rem;
+  }
+  .feature-right{
+    display: none;
+  }
+  .feature-subparagraph{
+    font-size: 1.1rem;
+  }
+  .footer-container{
+    
+  }
+  .footer-center{
+    display: none;
+  }
+  .footer-title{
+    font-size: 1.9rem;
+    margin: 0;
+  }
+  .footter-paragraph{
+    font-size: .9rem;
+    margin: 0;
+  }
+  .protocol-name{
+    color: blue;
+  }
+ .protocol-logo{
+   font-size: 2rem;
+   text-transform: uppercase;
+   color: red;
+   text-decoration: line-through;
+ }
+.footer-social{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+ 
+}
+
+@media (min-width:  576px) and ( max-width: 768px){
+  .home-container{
+    
+     
+  }
+  .nav-right{
+    display: none;
+  }
+  .toggle-btn{
+    display: block;
+  }
+  .home-view-right{
+    display: none;
+  }
+  .home-view-container{
+    width: 100%;
+    padding: 15px;
+  }
+  .home-view-left{
+    width: 100%;
+  }
+  .home-title{
+    font-size: 3rem;
+  }
+  .home-paragraph{
+         
+    
+    font-size: 1.7rem;
+    text-transform: capitalize;
+
+   
+  }
+  .join-beta-container{
+    border: 1px solid #bfbfbf;
+    border-radius: 14px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    }
+  .services-container{
+    margin: 0;
+  }
+  .services-title{
+    font-size: 1.7rem;
+  }
+  .services-paragraph{
+    font-size: 1.3rem;
+  }
+  .services-heeader{
+    margin-top: 0px;
+  }
+  .services-body{
+    width: 90%;
+    display: flex;
+    
+    margin-top: 15px;
+    flex-wrap: wrap;
+  }
+  .servic-feature{
+    width: 40%;
+    border: 1px solid  #bfbfbf;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     margin: 0 auto;
+     margin-bottom: 10px;
+  }
+
+  .why-us-header{
+    padding: 10px;
+   
+  }
+  .why-us-title{
+    font-size: 2rem;
+  }
+  .why-us-subtitle{
+    font-size: 1.5rem;
+    line-height: 23px;
+  }
+  .feature-left{
+    margin: 0 auto;
+    width: 600px;
+  }
+  .feature-right{
+    display: none;
+  }
+  .feature-subparagraph{
+    font-size: 1.1rem;
+  }
+  .footer-container{
+    
+  }
+  .footer-center{
+    display: none;
+  }
+  .footer-title{
+    font-size: 2.3rem;
+    margin: 0;
+  }
+  .footter-paragraph{
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .protocol-name{
+    color: blue;
+  }
+ .protocol-logo{
+   font-size: 2rem;
+   text-transform: uppercase;
+   color: red;
+   text-decoration: line-through;
+ }
+.footer-social{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+}
+
+@media (min-width:  767px) and ( max-width: 992px){
+  .home-container{
+    
+    
+  }
+  .home-view-right{
+    
+  }
+  .home-view-container{
+    width: 100%;
+    padding: 15px;
+  }
+  .home-view-left{
+    width: 50%;
+  }
+  .home-title{
+    font-size: 2rem;
+  }
+  .home-paragraph{
+         
+    
+    font-size: 1rem;
+    text-transform: capitalize;
+
+   
+  }
+  .join-beta-container{
+    border: 1px solid #bfbfbf;
+    border-radius: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    }
+  .services-container{
+    margin: 0;
+  }
+  .services-title{
+    font-size: 1.9rem;
+  }
+  .services-paragraph{
+    font-size: 1.3rem;
+  }
+  .services-heeader{
+    margin-top: 0px;
+  }
+  .services-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 15px;
+  
+  }
+  .servic-feature{
+    width: 300px;
+    border: 1px solid  #bfbfbf;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     margin: 0 auto;
+     margin-bottom: 10px;
+  }
+
+  .why-us-header{
+    padding: 10px;
+   
+  }
+  .why-us-title{
+    font-size: 2.4rem;
+  }
+  .why-us-subtitle{
+    font-size: 1.8rem;
+    line-height: 23px;
+  }
+  .feature-left{
+    width: 500px;
+    
+   
+  }
+  .feature-right{
+    
+  }
+  .dashboard-image{
+    width: 450px;
+  }
+ .features{
+   
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 15px;
+ }
+  .feature-subparagraph{
+    font-size: 1.1rem;
+  }
+  .footer-container{
+    
+  }
+  .footer-center{
+    
+  }
+  .footer-title{
+    font-size: 2.3rem;
+    margin: 0;
+  }
+  .footter-paragraph{
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .protocol-name{
+    color: blue;
+  }
+ .protocol-logo{
+   font-size: 2rem;
+   text-transform: uppercase;
+   color: red;
+   text-decoration: line-through;
+ }
+.footer-social{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+}
+
+@media (min-width:  992px) and ( max-width: 1200px){
+.home-container{
+  background-color: red;
+}
+}
+
+
+
+
