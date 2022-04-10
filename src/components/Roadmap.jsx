@@ -110,7 +110,7 @@ const Roadmap = () => {
                 
             </ul>
             <div className='progress-bar'> 
-            <div className='progress-header'> <Paragraph>progress</Paragraph>  <Paragraph>0%</Paragraph></div>
+            <div className='progress-header' style={{color: "white"}}> <Paragraph>progress</Paragraph>  <Paragraph>0%</Paragraph></div>
               <div className='progress-body'><Line percent="0" strokeWidth="2" strokeColor="blue" /> </div>
             </div>
            </VerticalTimelineElement>

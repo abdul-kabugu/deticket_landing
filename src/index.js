@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import {BrowserRouter as Router} from 'react-router-dom'
 import 'antd/dist/antd.css';
+import {HelmetProvider} from 'react-helmet-async'
 
 ReactDOM.render(
   <React.StrictMode>
+  <HelmetProvider>
   <Router>
     <App />
     </Router>
+    </HelmetProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

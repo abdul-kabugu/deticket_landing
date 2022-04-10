@@ -43,7 +43,9 @@ const Navbar = () => {
         </div>
       </Drawer>
         <div className='nav-left'>
-            <Title level={3}>Detickets.</Title>
+           {/* <h3 className='logo'> <span className='logo-first-latter'>D</span>ebble.</h3>*/}
+           <img src='/img/logo-3.svg'   alt='' className='logo-image'/>
+            
         </div>
         <div className='nav-right'>
             <div className='nav-list'>

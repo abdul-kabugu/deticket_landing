@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import {Typography, Button} from 'antd'
 import { InstagramFilled, TwitterSquareFilled } from '@ant-design/icons';
-import { HashLink as Link } from 'react-router-hash-link';
+ //import { HashLink as Link } from 'react-router-hash-link';
 import SubscribeTest from './SubscribeTest';
+import { Link,  Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 const Footer = () => {
     const [email, setEmail] = useState()
     const {Paragraph} = Typography
@@ -17,16 +18,16 @@ const Footer = () => {
         </div>
         <div className='footer-center'>
             <div className='navs'>
-               <Link to='#home' style={{textDecoration: "none"}}> <Paragraph style={{fontSize: "1.3rem", textTransform: "uppercase", marginBottom: "7px"}}>home</Paragraph></Link>
-               <Link to="#services" style={{textDecoration: "none"}}> <Paragraph style={{fontSize: "1.3rem", textTransform: "uppercase", marginBottom: "7px"}}>Services</Paragraph></Link>
-               <Link to="#roadmap" style={{textDecoration: "none"}}> <Paragraph style={{fontSize: "1.3rem", textTransform: "uppercase", marginBottom: "7px"}}>roadmap</Paragraph> </Link>
-               <Link to='blog' style={{textDecoration: "none"}}> <Paragraph style={{fontSize: "1.3rem", textTransform: "uppercase", marginBottom: "7px"}}>blog</Paragraph></Link>
+               <Link to='home' spy={true} smooth={true} offset={50} duration={1500} style={{cursor: "pointer"}}> <Paragraph style={{fontSize: "1.3rem", textTransform: "uppercase", marginBottom: "7px"}}>home</Paragraph></Link>
+               <Link to="services" spy={true} smooth={true} offset={50} duration={1500} style={{cursor: "pointer"}}> <Paragraph style={{fontSize: "1.3rem", textTransform: "uppercase", marginBottom: "7px"}}>Services</Paragraph></Link>
+               <Link to="roadmap" spy={true} smooth={true} offset={50} duration={1500} style={{cursor: "pointer"}}> <Paragraph style={{fontSize: "1.3rem", textTransform: "uppercase", marginBottom: "7px"}}>roadmap</Paragraph> </Link>
+               <Link to='blog' spy={true} smooth={true} offset={50} duration={1500} style={{cursor: "pointer"}}> <Paragraph style={{fontSize: "1.3rem", textTransform: "uppercase", marginBottom: "7px"}}>blog</Paragraph></Link>
             </div>
         </div>
         </div>
         <div className='footer-social'>
             <div className='social-left'>
-                <Paragraph className='footer-logo' style={{color: "#6a766f",  textTransform: "capitalize"}}>Detickets 2022 ©</Paragraph>
+                <Paragraph className='footer-logo' style={{color: "#6a766f",  textTransform: "capitalize"}}>Debble 2022 ©</Paragraph>
             </div>
             <div className='social-right'>
                 <div className='social-icons'>

@@ -9,12 +9,22 @@
    
 }
 .nav-container{
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
   align-items: center;
+  margin: 0 auto;
   
+}
+.logo{
+  font-size: 1rem;
+}
+.logo-first-latter{
+ font-size: 1.4rem;
+}
+.logo-image{
+  width: 70px;
 }
 .nav-drawer{
   display: flex;
@@ -83,6 +93,10 @@ align-items: center;
 .home-subtitle{
   font-family: 'Montserrat Alternates', sans-serif;
   margin: 0;
+  
+}
+.home-paragraph{
+  font-size: 1.2rem;
 }
 .buy-tcke-img{
   cursor: pointer;
@@ -175,8 +189,23 @@ align-items: center;
   background-color: rgb(246,241,253);
   padding: 10px;
 }
+.why-us-title{
+  font-size: 2.2rem;
+}
+.why-us-subtitle{
+  font-size: 1.5rem;
+}
 .feature-1{
   margin-top: 30px;
+}
+.services-title{
+  font-size: 2rem;
+}
+.services-paragraph{
+  font-size: 1.5rem;
+}
+.feature-subparagraph{
+  font-size: 1rem;
 }
 .roadmap-container{
   width: 90%;
@@ -200,6 +229,7 @@ align-items: center;
   flex-direction: column;
   justify-content: space-between;
   margin-top: 5px;
+  color: white
 }
 .progress-header{
   display: flex;
@@ -215,6 +245,15 @@ align-items: center;
 .left-4{
   
   width: 600px;
+}
+.protocol-name{
+  color: blue;
+}
+.protocol-logo{
+ font-size: 2rem;
+ text-transform: uppercase;
+ color: red;
+ text-decoration: line-through;
 }
 
 .footer-container{
@@ -265,6 +304,9 @@ align-items: center;
 @media (max-width: 576px){
   .home-container{
     
+  }
+  .nav-container{
+    width: 100%;
   }
 
   .nav-right{
@@ -379,7 +421,7 @@ align-items: center;
  
 }
 
-@media (min-width:  576px) and ( max-width: 768px){
+@media (min-width:  573px) and ( max-width: 768px){
   .home-container{
     
      
@@ -641,7 +683,26 @@ align-items: center;
 
 @media (min-width:  992px) and ( max-width: 1200px){
 .home-container{
-  background-color: red;
+ 
+}
+.feature-left{
+  width: 500px;
+  
+ 
+}
+.feature-right{
+  
+}
+.dashboard-image{
+  width: 450px;
+}
+.features{
+ 
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 15px;
 }
 }
 

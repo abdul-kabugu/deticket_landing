@@ -48,7 +48,7 @@ const WhyUs = () => {
             <h3 className='feature-title' style={{textTransform: "uppercase"}}>Fan Engagement</h3>
             <Paragraph className='feature-subparagraph' style={{color: "#6a766f",  textAlign: "center"}}> with NFT tickets you'll be able to foster communities of dedicated fans 
             .</Paragraph>
-            <Paragraph  style={{color: "#6a766f", fontSize: "1.4rem", textAlign: "center"}}>the hard work is done a ticket created in detickets  later can be used as gift card or discord server membership  <br />
+            <Paragraph  style={{color: "#6a766f", fontSize: "1.4rem", textAlign: "center"}}>the hard work is done a ticket created in debble  later can be used as gift card or discord server membership  <br />
             A couple of practical and immediate examples to this would be allowing access to a particular Discord server if a user has the NFT ticket in their wallet, or even offering governance-style votes on what fans want to happen at a particular event by using the NFTs within a governance platform such as Snapshot.
              </Paragraph>
               

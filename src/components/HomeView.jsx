@@ -9,8 +9,8 @@ const HomeView = () => {
         <h3 className='home-subtitle'>WELCOME TO DETICKETS</h3>
          
          <h1 className='home-title'>create. sell <br /> and manage your <br />  event tickets</h1>
-         <Paragraph style={{color: "#6a766f"}} className="home-paragraph">Detickets  is the world's first   
-          complete ticketing <br />platform with blockchain and NFT integration
+         <Paragraph style={{color: "#6a766f"}} className="home-paragraph">Debble The world's first decentralized ticketing  platform,
+            where <br /> #NFT tickets is  created, priced, bought, and sold on the blockchain.
          </Paragraph>
          
          <div className='join-news-box'>

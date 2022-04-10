@@ -6,17 +6,32 @@ import Services from '../Services';
 import WhyUs from '../WhyUs';
 import Footer from '../Footer';
 import SubscribeTest from '../SubscribeTest';
+import WhatsAppWidget from 'react-whatsapp-widget'
+import 'react-whatsapp-widget/dist/index.css'
+import {Helmet} from 'react-helmet-async'
 
 const Home = () => {
-    return <div className='home-container'>
+    return (
+    <>
+    <Helmet>
+    <title>The world's first decentralized ticketing platform</title>
+    <meta name='description' content="Explore the world's first nft ticketing platform.  create , sell and buy tickets." />
+    <link rel='canonical' href='/' />
+    </Helmet>
+    
+    <div className='home-container'>
         <Navbar />
          <HomeView />
          <Services />
          <WhyUs />
          <Roadmap />
          <Footer />
-         
-    </div>;
+         <WhatsAppWidget phoneNumber='255625220627' />
+    
+   
+    </div>
+    </>
+    )
 }
 
 
