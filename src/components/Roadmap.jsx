@@ -32,7 +32,7 @@ const Roadmap = () => {
                 <li className='task-item'>website development phase 1</li>
             </ul>
             <div className='progress-bar'> 
-            <div className='progress-header'> <Paragraph>progress</Paragraph>  <Paragraph>100%</Paragraph></div>
+            <div className='progress-header'> <p>progress</p>  <p>100%</p></div>
               <div className='progress-body'><Line percent="100" strokeWidth="2" strokeColor="blue" /> </div>
             </div>
            </VerticalTimelineElement>
@@ -58,7 +58,7 @@ const Roadmap = () => {
                
             </ul>
             <div className='progress-bar'> 
-            <div className='progress-header'> <Paragraph>progress</Paragraph>  <Paragraph>60%</Paragraph></div>
+            <div className='progress-header'> <p>progress</p>  <p>60%</p></div>
               <div className='progress-body'><Line percent="60" strokeWidth="2" strokeColor="blue" /> </div>
             </div>
            </VerticalTimelineElement>
@@ -84,7 +84,7 @@ const Roadmap = () => {
                 <li className='task-item'>ticket scan testing</li>
             </ul>
             <div className='progress-bar'> 
-            <div className='progress-header'> <Paragraph>progress</Paragraph>  <Paragraph>0%</Paragraph></div>
+            <div className='progress-header'> <p>progress</p>  <p>0%</p></div>
               <div className='progress-body'><Line percent="0" strokeWidth="2" strokeColor="blue" /> </div>
             </div>
            </VerticalTimelineElement>
@@ -110,7 +110,7 @@ const Roadmap = () => {
                 
             </ul>
             <div className='progress-bar'> 
-            <div className='progress-header' style={{color: "white"}}> <Paragraph>progress</Paragraph>  <Paragraph>0%</Paragraph></div>
+            <div className='progress-header'> <p>progress</p>  <p>0%</p></div>
               <div className='progress-body'><Line percent="0" strokeWidth="2" strokeColor="blue" /> </div>
             </div>
            </VerticalTimelineElement>

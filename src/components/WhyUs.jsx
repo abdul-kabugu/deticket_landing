@@ -31,16 +31,16 @@ const WhyUs = () => {
 
             <div className='features feature-1'>
         <div className='feature-left'>
-            <h3 className='feature-title' style={{textTransform: "uppercase"}}>Reward your true fans</h3>
-            <Paragraph className='feature-subparagraph' style={{color: "#6a766f",  textAlign: "center"}}> A complete ticketing infrastructure with blockchain and NFT integration.</Paragraph>
-            <Paragraph  style={{color: "#6a766f", fontSize: "1.4rem", textAlign: "center"}}> Selling Tickets Is all About Strategy  <br />
-               imagine you have an VR event in decentraland  and you're startegy is to give  Early Bird 90%  discount  to  your  shopify store 
-               or  provide food and drink deals to fans who have gathered many event tickets.
+            <h3 className='feature-title' style={{textTransform: "uppercase"}}> Integrated to many existing platforms</h3>
+            <Paragraph className='feature-subparagraph' style={{color: "#6a766f",  textAlign: "center"}}> A complete ticketing infrastructure with blockchain and NFT intelligence.</Paragraph>
+            <Paragraph  style={{color: "#6a766f", fontSize: "1.4rem", textAlign: "center"}}> Integrated to many  existing platforms <br />
+            create private events   that only users who own a specific ticket can access!.  The past 2 years have proven that "real life" is also very much happening online.
+            The metaverse has been taking a significantly bigger place in our lives! 
              </Paragraph>
               
             </div>
             <div className='feature-right'>
-             <img src='/img/gift.svg' alt='' className='dashboard-image'/>
+             <img src='/img/plug-in-2.svg' alt='' className='dashboard-image'/>
             </div> </div>
 
             <div className='features feature-3'>

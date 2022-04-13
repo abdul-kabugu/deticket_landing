@@ -44,7 +44,7 @@ const Navbar = () => {
       </Drawer>
         <div className='nav-left'>
            {/* <h3 className='logo'> <span className='logo-first-latter'>D</span>ebble.</h3>*/}
-           <img src='/img/logo-3.svg'   alt='' className='logo-image'/>
+           <img src='/img/logo-4.svg'   alt='' className='logo-image'/>
             
         </div>
         <div className='nav-right'>
